@@ -1,0 +1,18 @@
+<div class="card-deck">
+  <div class="card">
+  <div class="card-header">
+      <% if (nowPlaying) { %>
+        <h5><%=nowPlaying.title%></h5>
+        <h6 class="request-performer"><%=nowPlaying.performer%></h6>
+      </div>
+      <div class="card-body">
+        <blockquote class="request-message">
+          <p><%=nowPlaying.message%></p>
+          <footer class="blockquote-footer"><%=nowPlaying.requester%>, <%=nowPlaying.date%></footer>
+        </blockquote>
+      </div>
+  <% } else { %>
+    <p>Just nu spelas ingen låt.</p>
+  <% } %>
+  </div>
+</div>

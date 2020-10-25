@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+width: 100%;
+margin: 0;
+display: table;
+color: #484848;
+}
+
+a {
+  color: #c26795;
+}
+
+a:hover {
+  color: #9d3f6f;
+}
+
+.nav {
+  background-color: #eed5e1;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand {
+  color: #c26795;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+
+.navbar-right {
+  padding-bottom: 0;
+  align-items: center;
+}
+
+.nav-item {
+font-size: 1.3rem;
+padding: 0 1rem 0;
+}
+
+.request-form {
+  padding: 2rem 0;
+}
+
+.card-deck {
+  padding-bottom: 40px;
+}
+
+.card {
+  margin: 1rem 0;
+  border-color: #d89ebb;
+  border-style: dashed;
+}
+
+.card-header {
+  background-color: #fdf9fb;
+  border-style: none;
+}
+
+.request-performer {
+  font-style: italic;
+}
+
+.page-heading {
+  padding: 2rem 0;
+  color: #c26795;
+  text-align: center;
+}
+
+.request-element {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.request-value {
+  padding-left: 10px;
+}
+
+.btn {
+  background-color: #9ebbd8;
+  color: white;
+}
+
+.page-footer {
+  background-color: #fdf9fb;
+  color: white;
+  text-align: center;
+  height: 30px;
+  display: table-row;
+}
+
+.footer-text {
+  color: #c26795;
+  margin: 0.5rem;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.btn {
+  background-color: #c26795;
+}
+
+.btn:hover {
+  color: #eed5e1;
+}
+
+.dj-buttons {
+  display: inline;
+  bottom: 0;
+}
+
+.logout-button {
+  display: inline;
+}

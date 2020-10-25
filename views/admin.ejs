@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+<div class="page-heading">
+  <h1>Hej kapellmästare <%-admin%>!</h1>
+  <p>Här kan du se och hantera inkomna önskningar!</p>
+</div>
+
+<div class="playlist">
+<h2>Nu spelas</h2>
+    <%- include("partials/playing"); -%>
+</div>
+
+<div class="playlist">
+<h2>Kö</h2>
+<%- include("partials/queue"); -%>
+</div>
+
+
+<div class="playlist">
+<h2>Redan spelade</h2>
+<%- include("partials/played"); -%>
+</div>
+
+</div>
+
+<%- include("partials/footer"); -%>

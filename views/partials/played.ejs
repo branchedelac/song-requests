@@ -1,0 +1,16 @@
+<div class="card-deck">
+  <% for (request of requestArchive) { %>
+  <div class="card">
+    <div class="card-header">
+      <h5><%=request.title%></h5>
+      <h6 class="request-performer"><%=request.performer%></h6>
+    </div>
+    <div class="card-body">
+      <blockquote class="request-message">
+        <p><%=request.message%></p>
+        <footer class="blockquote-footer"><%=request.requester%>, <%=request.date%></footer>
+      </blockquote>
+    </div>
+  </div>
+  <% } %>
+</div>
